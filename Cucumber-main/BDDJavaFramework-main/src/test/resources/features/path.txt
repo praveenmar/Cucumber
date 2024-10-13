@@ -1,0 +1,45 @@
+New_Submission_Select_But = //*[@id="NewSubmission-NewSubmissionScreen-ProductOffersDV-ProductSelectionLV-3-addSubmission"]
+
+Policy_Info_Yes = we should do for e and s
+Policy_Info_N0 =
+
+Policy_Info_Next_But = //*[@id="SubmissionWizard-Next"]/div
+
+B_and_L_Add_Location_But = //*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV_tb-addLocationsTB"]/div[1]
+
+B_and_L_Add_Location_But_New_Loc = //*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV_tb-addLocationsTB-AddNewLocation"]/div
+after clicking on above  button it will go to "Location Info page" we have code for this
+
+B_and_L_Action_DropDown = //*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV-1-Actions-ActionsMenuIcon"]/div[1]
+
+B_and_L_Ac_DD_AddBuid_NewBUilding = //*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV-1-Actions-AddBuilding-AddNewBuilding"]/div
+
+NewBuilding_Prop_Class_Code = //*[@id="CPBuildingPopup-DetailsDV-ClassCode"]/div[1]/input
+
+NewBuilding_Coverage_Form_DD = //*[@id="CPBuildingPopup-DetailsDV-CoverageForm"]/div/div/select
+by default none
+value BPP
+
+go to coverages tab
+should do some verification on check boxes
+
+Coverages_Tab_Ok_But = //*[@id="CPBuildingPopup-Update"]/div
+Building coverage_check_box=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-0-CoverageInputSet-CovPatternInputGroup-_checkbox"]/div/input
+Bussiness personal property check_box=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-1-CoverageInputSet-CovPatternInputGroup-_checkbox"]/div/input
+Excess and surplus check_box=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-2-CoverageInputSet-CovPatternInputGroup-_checkbox"]/div/input
+Bussiness income coverage check_box=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-IncomeAndExpenseIterator-0-CoverageInputSet-CovPatternInputGroup-_checkbox"]/div/input
+Extra Expense coverage check_box=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-IncomeAndExpenseIterator-1-CoverageInputSet-CovPatternInputGroup-_checkbox"]/div/input
+Building coverage deductible click=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-0-CoverageInputSet-CovPatternInputGroup-CPBldgCovDeductible"]/div/div/select
+Building coverage deductible option=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-0-CoverageInputSet-CovPatternInputGroup-CPBldgCovDeductible"]/div/div/select/option[7]
+Wind % deductible click=//*[@id="CPBuildingPopup-CPBldgSuggestedCovDV-bldgAndPropIterator-0-CoverageInputSet-CovPatternInputGroup-CPBldgCovWindDeductible"]/div/div/select
+
+
+
+
+
+after we have to select one location from below listed location
+
+//*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV-0-Actions-ActionsMenuIcon"]/div[1]
+//*[@id="SubmissionWizard-LOBWizardStepGroup-LineWizardStepSet-CPBuildingsScreen-CPBuildingsAndLocationsLV-1-Actions-ActionsMenuIcon"]/div[1]
+
+B_and_L_Add_Location_But_New_Loc_Next_But = //*[@id="SubmissionWizard-Next"]/div

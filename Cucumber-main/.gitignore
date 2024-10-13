@@ -1,0 +1,13 @@
+# Default ignored files
+misc.xml
+vcs.xml
+compiler.xml
+.idea/*
+
+*.iml
+*.log
+out/*
+*.hprof
+Reports
+target
+.idea

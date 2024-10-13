@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+misc.xml
+vcs.xml
+compiler.xml
+.idea/*
+
+*.iml
+*.log
+out/*
+*.hprof
+Reports
+target
+.idea
